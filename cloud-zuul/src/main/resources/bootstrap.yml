@@ -1,0 +1,8 @@
+
+spring:
+  profiles:
+    active: ${AGENT_ENV:dev}
+  application:
+    name: zuul-service
+
+

@@ -1,0 +1,6 @@
+spring:
+  profiles:
+    active: ${AGENT_ENV:mysql}
+  application:
+    name: security-service
+
